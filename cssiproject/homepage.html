@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" tpye="text/css" href="static_files/hexagon.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="static_files/design.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <title> PRO.crastinate </title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="static_files/design.js"></script>
+</head>
+<body>
+
+
+
+
+  <h1>
+  PRO.<font size="15">crastination</font> </h1>
+
+
+
+  <a href="/stopwatchstart" class="startButton">Start</a>
+  <a href="/stopwatchstop?key_name={{ key_name }}" class="stopButton">Stop</a>
+  <a href="#" class="menuButton">Menu</a>
+  <br/>
+  <br/>
+  <br/>
+  <div id="description">
+    Welcome to PRO.crastination! Become a pro at studying with our simple study tools.
+    Click start and stop at the top of the page to time your study session. Make sure to set
+    a study goal first! You can find your goals, as well as your notes and rewards, in the menu on the right.
+  </div>
+
+  <div id = "menu">
+  <ul>
+    <br>
+    <li style="list-style-type: none;" id="li"><a href="/addgoals">Goals</a></li>
+    <br>
+    <li style="list-style-type: none;" id="li"><a href="/addnotes">Notes</a></li>
+    <br>
+    <li style="list-style-type: none;" id="li"><a href="/rewards">Rewards</a></li>
+
+    <div  id = "logOut">  {{ logout }} </div>
+  </div>
+
+<br>
+  <div class="English-Menu">
+  <nav class="menu">
+    <ul class="EnglishResources">
+
+      <div class="hexagon" id="English">
+        <!-- English -->
+      <li>
+        <div id="englishSubList">
+            <!-- English -->
+        <ul class="sub-menu">
+
+          <li><a href="/writing">Writing</a>
+            <div id="writingLinkMenu">
+            <ul>
+              <li>
+                <a href="https://owl.english.purdue.edu/owl/section/1/"> Purdue Owl</a>
+              </li>
+              <li>
+                 <a href="http://oedb.org/ilibrarian/150-writing-resources/">Open Education Database</a>
+              </li>
+              <li>
+              <a href="http://study.com/articles/45_Essential_Resources_for_Student_Writers.html">Study.com</a>
+              </li>
+            </ul>
+          </div>
+          </li>
+          <li><a href="/storytelling">Storytelling</a>
+            <div id="storyLinkMenu">
+            <ul>
+              <li>
+                 <a href="http://www.meridianstories.com/storytellers/tool-kit/creative-brainstorming-techniques/"> Meridian Storytellers</a>
+              <li>
+                 <a href="https://www.mercy.edu/faculty-center-teaching-and-learning/fctl-%C3%A0-la-carte/lights-camera-action-digital-storytelling"> Mercy College</a>
+              </li>
+              <li>
+                 <a href="http://digitalstorytelling.coe.uh.edu/">Tips for Digital Storytelling</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="/literature">Literature</a>
+            <div id="litLinkMenu">
+            <ul>
+              <li>
+                 <a href="http://www.studentguide.org/english-literature-resource-list/">Student Guide
+              </li>
+              <li>
+                  <a href="http://www.sparknotes.com/">SparkNotes</a>
+              </li>
+              <li>
+                <a href="http://www.shmoop.com/college/">Shmoop</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          </li>
+        </ul>
+        </div>
+      </li>
+      <div class="face1"></div>
+      <div class="face2"></div>
+    </div>
+
+
+      <div class="hexagon" id="Math">
+      <li>
+        <div id="mathSubList">
+            <!-- Math -->
+        <ul class="sub-menu">
+          <li><a href="/geometry">Geometry</a>
+            <div id="geometryLinks">
+            <ul>
+              <li>
+                <a href="http://www.pearsonhighered.com/educator/product/College-Geometry-A-Problem-Solving-Approach-with-Applications/9780131879690.page">Pearson</a>
+              </li>
+              <li>
+                <a href="http://www.learner.org/resources/series167.html">Learner.org</a>
+              </li>
+              <li>
+                <a href="http://www.purplemath.com/">PurpleMath</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="/calculus">Calculus</a>
+            <div id="calculusLinks">
+            <ul>
+              <li>
+                <a href="http://www.calculus.org/">Calculus.org</a>
+              </li>
+              <li>
+                <a href="http://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/">MIT</a>
+              </li>
+              <li>
+                <a href="http://www.huffingtonpost.com/oscar-fernandez/6-free-to-low-cost-resour_b_5599990.html">Huffington Post</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="/statistics">Statistics</a>
+            <div id="statsLinks">
+            <ul>
+              <li>
+                <a href="http://www.math.hope.edu/stats/">Hope</a>
+              </li>
+              <li>
+                <a href="https://www.grinnell.edu/academics/areas/math-stats/resources"> Grinnell College</a>
+              </li>
+              <li>
+                <a href="https://apps.carleton.edu/curricular/math/resources/"> Carleton College </a>
+              </li>
+            </ul>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </li>
+      <div class="face1"></div>
+      <div class="face2"></div>
+      </div>
+      <div class="hexagon" id="Science">
+      <li>
+        <div id="scienceSubList">
+          <!-- Science -->
+        <ul class="sub-menu">
+          <li><a href="/lifescience">Life Science</a>
+            <div id="lifeLinks">
+            <ul>
+              <li>
+                <a href="https://www.mesacc.edu/departments/life-science/anatomy-physiology/resources">Mesa College</a>
+              </li>
+              <li>
+                <a href="http://lifesciences.byu.edu/">Brigham Young University</a>
+              </li>
+              <li>
+                <a href="http://www.cals.wisc.edu/academics/undergraduate-programs/learning-resources/">University of Wisconsin</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="/chemistry">Chemistry</a>
+            <div id="chemLinks">
+            <ul>
+              <li>
+                <a href="http://www.chm.davidson.edu/">Davidson College</a>
+              </li>
+              <li>
+                <a href="http://www.chem1.com/chemed/genchem.shtml">Chem1</a>
+              </li>
+              <li>
+                <a href="http://madisoncollege.edu/chemistry-resources">Madison College</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+          <li><a href="/physics">Physics</a>
+            <div id="physicsLinks">
+            <ul>
+              <li>
+                <a href="https://openstaxcollege.org/textbooks/college-physics/resources">Open Stax
+                </a>
+              </li>
+              <li>
+                <a href="https://new.oberlin.edu/arts-and-sciences/departments/physics/resources.dot"> Oberlin College</a>
+              </li>
+              <li>
+                <a href="http://ocw.mit.edu/courses/physics/">MIT</a>
+              </li>
+            </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      </li>
+      <div class="face1"></div>
+      <div class="face2"></div>
+      </div>
+      <div class="hexagon" id="Humanities">
+      <li>
+        <div id="humanitiesSubList">
+            <!-- Humanities -->
+        <ul class="sub-menu">
+          <li><a href="/history">History</a>
+            <ul>
+              <li>
+                <a href="https://apps.carleton.edu/curricular/history/resources/resourcesindex/"> Carleton College</a>
+              </li>
+              <li>
+                <a href="http://www.gordon.edu/library/electronic_resources/history">Gordon College
+                </a>
+              </li>
+              <li>
+                <a href="http://cola.unh.edu/history/resources">University of New Hampshire</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/psychology">Psychology</a>
+            <ul>
+              <li>
+                <a href="http://www.psywww.com/resource/bytopic.htm">Psych Web</a>
+              </li>
+              <li>
+                <a href="http://psychcentral.com/resources/">Psych Central</a>
+              </li>
+              <li>
+                <a href="http://resources.iupsys.net/iupsys/index.php/patw-resources">Psychology Resources Around the World</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/philosophy">Philosophy</a>
+            <ul>
+              <li>
+                <a href="http://www.epistemelinks.com/">Episteme Links</a>
+              </li>
+              <li>
+                <a href="http://philosophy.fas.nyu.edu/page/resources"> New York University</a>
+              </li>
+              <li>
+                <a href="http://www.philosophypages.com/links.html">Philosophy Pages</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </li>
+      <div class="face1"></div>
+      <div class="face2"></div>
+      </div>
+      <div class="hexagon" id="Arts">
+
+      <li>
+        <div id="artSubList">
+              <!-- Arts -->
+        <ul class="sub-menu">
+          <li><a href="/performingarts">Performing Arts</a>
+            <ul>
+              <li>
+                <a href="http://www.tla-online.org/resources/publications/performing-arts-resources/">
+                  Theatre Library Association
+                </a>
+              </li>
+              <li>
+                <a href="http://www.performingarts.net/Links/resources.html">Performing Arts Online</a>
+              </li>
+              <li>
+                <a href="http://www.loc.gov/rr/perform/new.internet.resources.html">
+                  Performing Arts Reading Room
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/digitalmedia">Digital Media</a>
+            <ul>
+              <li>
+                <a href="http://mashable.com/category/digital-media-resources/">Mashable</a>
+              </li>
+              <li>
+                <a href="http://www.ala.org/alsc/digital-media-resources">American Library Association</a>
+              </li>
+              <li>
+                <a href="http://www.jiscdigitalmedia.ac.uk/guide/common-methods-for-viewing-using-and-producing-digital-media-resources">JISC Media</a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="/finearts">Fine Arts</a>
+            <ul>
+              <li>
+                <a href="http://www.artshow.com/resources/drawing.html">Art Show</a>
+              </li>
+              <li>
+                <a href="http://www.booooooom.com/">Booooooom</a>
+              </li>
+              <li>
+                <a href="http://emptyeasel.com/2009/02/23/the-big-list-of-free-drawing-resources-educational-books-videos-podcasts-more/">Empty Easel</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </li>
+      <div class="face1"></div>
+      <div class="face2"></div>
+      </div>
+    </ul>
+  </nav>
+</div>
+
+<div id="information">
+  <img  src= "static_files/aboutus.png" height="1000" width="1800">
+  <div id="PROcrastination_information">
+  PRO.crastination is a study site designed to help you meet your study goals...<br>
+    </br>and ENJOY meeting those goals!
+  </div>
+ </div>
+
+</div>
+</div>
+
+<div id = "aboutUs">
+
+    <div id ="profilepictures">
+  <img src="static_files/profilepictures.png" height=1000 width=1800>
+
+<div id = "Cydney">
+  I am Alive
+</div>
+
+<div id = "Katie">
+  I am Alive
+</div>
+
+<div id = "Gabryelle">
+  I am Alive
+</div>
+
+
+</div>
+<div>
+</body>
+</html>

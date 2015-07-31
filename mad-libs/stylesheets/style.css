@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  background-color: gray;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 10em;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+  <h1>Calculator</h1>
+  <form action="/mathhandler">
+    Input values: <br/>
+    <input type="float" name="left">
+    <select name="operation">
+      <option value="add">+</option>
+      <option value="subtract">-</option>
+      <option value="multiply">*</option>
+      <option value="divide">/</option>
+      <option value="power">^</option>
+      <option value="sqrt">√</option>
+      <option value="mod">%</option>
+      <option value="sin">sin</option>
+      <option value="cos">cos</option>
+      <option value="tan">tan</option>
+      <option value="arcsin">arcsin</option>
+      <option value="arccos">arccos</option>
+      <option value="arctan">arctan</option>
+      <option value="ln">ln</option>
+      <option value="log10">log10</option>
+      <option value="factorial">!</option>
+    </select>
+    <input type="float" name="right">
+    <input type="submit" value="Calculate!">
+  </form>
+
+</body>
+</html>

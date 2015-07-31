@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: cursive;
+  text-align: center;
+}
+
+img {
+  width: 2000px;
+  height: 2000px
+}

@@ -1,0 +1,26 @@
+body {
+  font-family: Arial;
+}
+
+h1, h2 {
+  background: yellow;
+  color: purple;
+  font-family: "Indie Flower";
+  width: 50%;
+}
+
+span {
+  color: #154B8F;
+
+}
+
+.song {
+  font-weight: bold;
+}
+
+ul {
+    border: 1px solid gray;
+    background-color: #AECDF2;
+    padding: 20px;
+    margin-left: 100px;
+}

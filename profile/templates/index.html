@@ -1,0 +1,29 @@
+<script>
+window.onload = function() {
+  console.log("Hello")
+  var startPos;
+  var geoSuccess = function(position) {
+    console.log(position)
+    startPos = position;
+    document.getElementById('latitude').value = startPos.coords.latitude;
+    document.getElementById('longitude').value = startPos.coords.longitude;
+    document.getElementById("hiddenTemp").submit();
+
+  };
+  navigator.geolocation.getCurrentPosition(geoSuccess);
+};
+
+</script>
+
+
+<h1>The temperature is...{{ temperature }}&deg; Fahrenheit</h1>
+
+{% if form %}
+
+<form action="/temperature" method="GET" id="hiddenTemp">
+  <input id="latitude" type="hidden" name="lat" value="60">
+  <input id="longitude" type="hidden" name="lon" value="-100">
+  <!-- <button type="submit">Send Location</button> -->
+</form>
+
+{% endif %}

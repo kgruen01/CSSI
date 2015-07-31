@@ -1,0 +1,37 @@
+h1 {
+  color: black;
+}
+
+
+body {
+  background-color: #E2E1ED
+}
+
+#clicky {
+  text-align: center;
+
+}
+#bio {
+  font-weight: bold;
+  width: 35%
+}
+
+#sidebar {
+  position:fixed;
+  width: 45%
+  text-align: center;
+}
+
+#posts {
+  overflow: auto;
+  float: right;
+  position: absolute; top: 20px; left: 450px
+}
+
+#links {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  text-align: center;
+  color: blue;
+}
